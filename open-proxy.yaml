@@ -1,0 +1,12 @@
+version: 1.0
+api:
+  name: museumAPI
+  version: 2.1
+  displayName: Redocly Museum API                
+  description: Imaginary, but delightful Museum API for interacting with museum services and information. Built with love by Redocly.   
+  type: REST
+backend:
+  url: https://api.fake-museum-example.com/v1.1
+gateway:
+  protocol: https
+  path: /mueseum
